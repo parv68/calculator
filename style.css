@@ -1,25 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
 html, body{
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Matemasie", sans-serif;
 }
 
-.button{
+.main{
+    background: #513431;
+    height: 100%;
+    width: 100%; 
+}
+
+.container{
+    width: 325px;
+    border-radius: 15px;
+}
+
+.button{ 
     padding: 20px;
     margin: 0 3px;
-    border: 2px solid black;
-    border-radius: 9px;
+    border-radius: 50px;
+    background: #d88a0d;
     cursor: pointer;
     width: 60px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
 }
 
 .row{
     margin: 8px 0;
 }
 .row input{
+    background: #dcdfde;
     margin: 0;
     padding: 10px 0;
     font-size: 23px;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 50px;
     width: 290px;
 }
