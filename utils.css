@@ -1,9 +1,12 @@
 .text-center{
     text-align: center;
+    color: #fff;
 }
 
 .bg-red{
-    background: #fff;
+    background: #000;
+    box-shadow:  24px 24px 30px #513431,
+    -24px -24px 30px #513431;
 }
 .mx-auto{
     margin: auto;
